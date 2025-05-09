@@ -1,0 +1,5 @@
+{
+  "/[jcd]/page": "app/[jcd]/page.js",
+  "/api/race-entry/route": "app/api/race-entry/route.js",
+  "/page": "app/page.js"
+}

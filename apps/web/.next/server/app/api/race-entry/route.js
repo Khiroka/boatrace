@@ -1,0 +1,14 @@
+const CHUNK_PUBLIC_PATH = "server/app/api/race-entry/route.js";
+const runtime = require("../../../chunks/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/node_modules_next_dist_fbbd8a23._.js");
+runtime.loadChunk("server/chunks/node_modules_axios_lib_c4a55de8._.js");
+runtime.loadChunk("server/chunks/69cb7_mime-db_8620ab1f._.js");
+runtime.loadChunk("server/chunks/node_modules_c369fef3._.js");
+runtime.loadChunk("server/chunks/node_modules_parse5_dist_d1335ed4._.js");
+runtime.loadChunk("server/chunks/node_modules_iconv-lite_1d546d44._.js");
+runtime.loadChunk("server/chunks/node_modules_undici_ee50b045._.js");
+runtime.loadChunk("server/chunks/node_modules_05f6d873._.js");
+runtime.loadChunk("server/chunks/[root-of-the-server]__37dfd828._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/apps/web/.next-internal/server/app/api/race-entry/route/actions.js [app-rsc] (server actions loader, ecmascript)", CHUNK_PUBLIC_PATH);
+runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/apps/web/src/app/api/race-entry/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/apps/web/src/app/api/race-entry/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
